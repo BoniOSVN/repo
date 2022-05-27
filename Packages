@@ -5,7 +5,6 @@ Architecture: iphoneos-arm
 Maintainer: KhangKK
 Filename: ./Deb/repo.bonios.videoadsspeed_1.0.4-3_iphoneos-arm.deb
 Size: 205,594
+MD5sum: 0DA5E890785262DD2324A6A1E401191D
 Description: Tua nhanh video ADS in-apps
-SHA1: 5f01cc834d53ac00b9fd073c20c9a55f2b93685d
-SHA256: fcf3a1fadcc6c233953c2adb5fc0bf1b3fca7fc73161eae89d5a7289f06bbd6c
 Section: Tweaks
