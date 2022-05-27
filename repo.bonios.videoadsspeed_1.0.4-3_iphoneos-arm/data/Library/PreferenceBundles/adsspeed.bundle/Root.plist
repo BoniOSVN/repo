@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>只在选中的APP生效
+打开开关重启APP即可</string>
+			<key>headerCellClass</key>
+			<string>speedHeaderCell</string>
+		</dict>
+		<dict>
+			<key>ALAllowsSelection</key>
+			<string>1</string>
+			<key>ALChangeNotification</key>
+			<string> com.yourepo.lly.adsspeed/ReloadPrefs</string>
+			<key>ALSettingsDefaultValue</key>
+			<string>0</string>
+			<key>ALSettingsKeyPrefix</key>
+			<string>Enabled-</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.yourepo.lly.adsspeed.plist</string>
+			<key>ALSingleEnabledMode</key>
+			<false/>
+			<key>ALSectionDescriptors</key>
+			<array>
+				<dict>
+					<key>cell-class-name</key>
+					<string>ALSwitchCell</string>
+					<key>icon-size</key>
+					<string>29</string>
+					<key>suppress-hidden-apps</key>
+					<string>1</string>
+					<key>predicate</key>
+					<string>isSystemApplication = FALSE</string>
+				</dict>
+			</array>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>选择APP</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>快速跳过游戏中的奖励视频广告
+无需等待15秒或更长时间，马上领取奖励
+1为正常速度，数值越高，速度越快
+改变数值，注销生效</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.yourepo.lly.adsspeed/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.yourepo.lly.adsspeed</string>
+			<key>key</key>
+			<string>sd</string>
+			<key>max</key>
+			<real>60</real>
+			<key>min</key>
+			<integer>1</integer>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>
+Copyright © 2019 lenglengyu. All rights reserved.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>about</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>hasIcon</key>
+			<true/>
+			<key>icon</key>
+			<string>about@3x.png</string>
+			<key>label</key>
+			<string>关于</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>zcw</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>hasIcon</key>
+			<true/>
+			<key>icon</key>
+			<string>lly@3x.png</string>
+			<key>label</key>
+			<string>请我喝瓶可乐</string>
+			<key>sublabel</key>
+			<string>如果此插件对你有所帮助,可以考虑给我捐赠!</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>
