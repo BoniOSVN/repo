@@ -287,7 +287,7 @@ Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmwa
 Recommended: com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./Deb/com.bonios.flex3beta_1:3~Beta97_iphoneos-arm.deb
+Filename: ./Deb/com.bonios.flex3beta_1_3~Beta97_iphoneos-arm.deb
 Size: 14371340
 MD5sum: 32e0ff6e13fbdde5aa47bf08b8740b5f
 SHA1: 3fa3adb6e695c5d941aa9d37f9f46b72e777849a

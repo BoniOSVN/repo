@@ -1,12 +1,11 @@
-Origin: KhangKK Repo ✔
-Label: KhangKK Hack Repo ✔
+Origin: KhangKK Repo 💮
+Label: KhangKK Hack Repo 💮
 Suite: stable
 Version: 1.0
 Codename: ios
 Architecture: iphoneos-arm
 Components: main
-Description: Kho Lưu Trữ Của KhangKK VN ✔
+Description: Kho Lưu Trữ Của KhangKK 
 MD5Sum:
- 49F87EF4FBB3CD863003A7F17DEF9854 102804 Packages
- 02C419266FCA67EB3B71FFAE919C49E6 32777 Packages.bz2
-
+ 608d1babdc8409e239917ee1fec4c6d1 102804 Packages
+ 19c429c493c5b19d84274d2488c718a4 32779 Packages.bz2
